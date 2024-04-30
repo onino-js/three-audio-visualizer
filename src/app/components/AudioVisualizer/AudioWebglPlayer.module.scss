@@ -1,0 +1,14 @@
+.AudioWebglPlayer {
+  .visualizer {
+    position: relative;
+    // width: 100vw;
+    // height: 100vh;
+    background-color: #000;
+    // overflow: hidden;
+  }
+  .audio__controls {
+    position: fixed;
+    bottom: 0;
+    left: calc(50% - 100px);
+  }
+}
